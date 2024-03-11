@@ -1,3 +1,109 @@
+@import "normalize.css";
+
+/*:root {*/
+/*    --main-foint-color: #f2709c;*/
+/*    --sub-foint-color: #ff9472;*/
+/*}*/
+
+html {
+    font-family: Pretendard;
+    letter-spacing: -0.3px;
+}
+
+.point-color-box {
+    width: 10px;
+    height: 70px;
+    background: #f2709c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ff9472, #f2709c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.quotes-symbol {
+    width: 80px;
+    height: 47px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 100%;
+    min-width: 400px;
+    max-width: 50%;
+    margin: auto;
+}
+
 h1 {
-    color: mediumslateblue;
+    font-size: 3rem;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-top: 80px;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+a {
+    color: #ff9472;
+    text-decoration-line: unset;
+}
+
+.self-info {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.txt-link {
+    margin-right: 5px;
+}
+
+.projects {
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #eee;
+}
+
+.project-info {
+    width: 30%;
+    max-width: 30%;
+}
+
+.project-content {
+    width: 70%;
+    max-width: 70%;
+}
+
+.team-name {
+    margin-bottom: 5px;
+}
+
+.stack-tag {
+    font-size: 14px;
+    color: white;
+    background-color: #f2709c;
+    padding: 3px 8px;
+    border-radius: 0.4rem;
+}
+
+.txt-content {
+    font-size: 1.2rem;
+}
+
+ul {
+    margin-inline-start: 0;
+    padding-inline-start: 0;
+    font-size: 1.2rem;
+}
+
+li {
+    list-style-position: unset;
+    padding-left: 10px;
+}
+
+li::marker {
+    content:'|';
+    color: #f2709c;
 }
